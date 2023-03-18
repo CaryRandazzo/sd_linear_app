@@ -7,7 +7,7 @@ import numpy as np
 # Create an empty dataframe with 5 rows and 5 columns
 df = pd.DataFrame( {"x-data":[], "y-data":[], "x-squared":[], "xy":[], "mx+b":[], "d-squared":[]} )
 
-st.text("Please enter the data in each line as provided - press ENTER to apply changes to the input")
+st.text("Please enter the data in each line as provided - press ENTER to apply changes.")
 
 
 try:
