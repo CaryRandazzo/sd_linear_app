@@ -71,7 +71,7 @@ except Exception as e:
 
 try:
     df["mx+b"] = m*df["x-data"]+b #mxb_arr 
-    df["d-squared"] = df["y-data"]-(m*df["x-data"]+b)
+    df["d-squared"] = ( df["y-data"]-(m*df["x-data"]+b) )**2
     print(df["y-data"]-(m*df["x-data"]+b))
     print(df["d-squared"])
 except Exception as e:
